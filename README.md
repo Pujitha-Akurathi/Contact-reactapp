@@ -1,76 +1,38 @@
-Contact Manager App - README
+# 📇 Contact Manager App – React Frontend
 
-📇 Contact Manager App
+A simple contact management application built using **React** and styled with **Semantic UI**. This frontend interacts with a REST API to perform CRUD operations: Create, Read, Update, and Delete contacts.
 
-A simple full-stack contact manager built with React (frontend) and JSON Server (backend API). It supports adding, editing, deleting, and viewing contact details with local persistence and live editing.
+---
 
-🗂️ Project Structure
+## 🚀 Features
 
-reactprojects/
-├── contact-app/      # React frontend
-├── server-api/       # JSON Server backend with db.json
+- View list of contacts  
+- Add new contacts  
+- Edit existing contacts  
+- Delete contacts  
+- View contact details  
+- Search contacts by name  
+- Responsive and user-friendly UI
 
-🚀 Features
+---
 
-✅ View contact list
-✅ Add new contacts
-✅ Edit existing contacts
-✅ Delete contacts
-✅ View contact details
-✅ Search contacts
-✅ Local API simulation using JSON Server
+## 📁 Project Structure
 
-📦 Technologies Used
+contact-app/
+├── public/
+├── src/
+│ ├── components/
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+├── package.json
+└── README.md
+## Technologies Used
 
-- React (with React Router v6)
-- JSON Server (for REST API)
-- Semantic UI (for styling)
+React
 
-🛠️ Getting Started
+Semantic UI
 
-1. Clone the repository
+React Router v6
 
-git clone https://github.com/Pujitha-Akurathi/contact-manager-app.git
-cd contact-manager-app
-
-2. Start JSON Server (in a separate terminal)
-
-cd server-api
-npx json-server --watch db.json --port 3006
-
-➡️ Runs at: http://localhost:3006/contacts
-
-3. Start React App (in a second terminal)
-
-cd contact-app
-npm install
-npm start
-
-➡️ Runs at: http://localhost:3000/
-
-📁 API Example
-
-GET /contacts returns:
-
-[
-  {
-    "id": "1",
-    "name": "Ramu",
-    "email": "Ramu@example.com"
-  }
-]
-
-
-📄 License
-
-MIT License. Feel free to use, modify, and share.
-
-🙌 Acknowledgements
-
-- React Docs: https://reactjs.org/
-- JSON Server: https://github.com/typicode/json-server
-- Semantic UI: https://semantic-ui.com/
-
-💬 Feedback / Contributions
-
-Have feedback or want to contribute? Open an issue or pull request on GitHub.
+Axios
