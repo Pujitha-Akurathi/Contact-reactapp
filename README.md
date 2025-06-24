@@ -17,7 +17,7 @@ A simple contact management application built using **React** and styled with **
 ---
 
 ## 📁 Project Structure
-
+<pre> ```
 contact-app/
 ├── public/
 ├── src/
@@ -27,6 +27,9 @@ contact-app/
 │ └── ...
 ├── package.json
 └── README.md
+``` </pre>
+---
+
 ## Technologies Used
 
 - React
@@ -69,10 +72,6 @@ To test the full functionality locally:
 4. Run the frontend:
    ```bash
    npm start
-
-
-
-
 
 
 
