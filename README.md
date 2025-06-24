@@ -64,8 +64,10 @@ To test the full functionality locally:
    ```bash
    npm install
 2. Start the JSON Server:
+   ```bash
    npx json-server --watch db.json --port 3006
 4. Run the frontend:
+   ```bash
    npm start
 
 
