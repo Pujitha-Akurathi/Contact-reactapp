@@ -35,7 +35,7 @@ const updateContactHandler = async(contact) => {
   console.log("Updating contact with ID:", contact.id); // ✅ Add this
   try {
     const response = await api.put(`/contacts/${contact.id}`, contact);
-    const { id, name, email } = response.data;
+    const { id } = response.data;
     setContacts(
       contacts.map((c) => (c.id === id ? response.data : c))
     );
